@@ -1,0 +1,27 @@
+name: MachineLearningEnvironment
+channels:
+  - defaults
+  - pytorch
+dependencies:
+  - pip
+  - python
+  - pip:
+    - chardet
+    - jupyter
+    - imgaug
+    - tensorboard
+    - tensorflow
+    - torch
+    - torchio
+    - torchmetrics
+    - torchvision
+    - tqdm
+    - pytorch-lightning
+    - opencv-python
+    - numpy
+    - matplotlib
+    - pandas
+    - pydicom
+    - setuptools
+    - ipywidgets
+
